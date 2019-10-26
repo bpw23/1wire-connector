@@ -12,12 +12,20 @@ Following owfs packages are used:
 
 ## Install
 ### OWFS:
-```apt-get install owfs python-ow ow-shell```
+`
+apt-get install owfs python-ow ow-shell
+`
 and then configure to your needs.
-
+  
 ### Copy files:
-
-## Working:
+devices.json and read1w.py to `/var/www`
+  
+1wire-connector.service to `/etc/systemd/system/`
+  
+### Start service
+`systemctl start 1wire-connector.service`
+  
+## What is working:
 - [x] Get data from DS18B20 (temperature10 and power)
 - [x] Get data from 2438 (smart battery monitor) (VDD, VAD, vis, humidity)
 - [x] Add as systemd service
