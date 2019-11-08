@@ -30,6 +30,9 @@ devices.json and read1w.py to `/var/www`
 - [x] Get data from 2438 (smart battery monitor) (VDD, VAD, vis, humidity)
 - [x] Add as systemd service
 - [x] Device names can be defined via device.json
+- [x] Infofield in 1wire.json with last refresh and number of devices
+- [x] Added fileds to 2438 (smart battery monitor) pressure and temperature
+- [x] Added bus statistics to info field
 
 
 ## Notes:
