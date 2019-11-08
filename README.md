@@ -25,7 +25,7 @@ devices.json and read1w.py to `/var/www`
 ### Start service
 `systemctl start 1wire-connector.service`
   
-## What is working:
+## What works:
 - [x] Get data from DS18B20 (temperature10 and power)
 - [x] Get data from 2438 (smart battery monitor) (VDD, VAD, vis, humidity)
 - [x] Add as systemd service
