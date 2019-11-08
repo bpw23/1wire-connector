@@ -44,7 +44,7 @@ if __name__ == "__main__":
                     sensorvalues["VDD"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"/VDD")
                     sensorvalues["vis"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"/vis")
                     sensorvalues["humidity"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"/humidity")
-		    sensorvalues["pressure"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"B1-R1-A/pressure")
+		    sensorvalues["pressure"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"/B1-R1-A/pressure")
 		    sensorvalues["temperature"]=ow.owfs_get("/bus.0/"+sensor.family+"."+sensor.id+"/temperature")
 
             except KeyError:
