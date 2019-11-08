@@ -30,3 +30,7 @@ devices.json and read1w.py to `/var/www`
 - [x] Get data from 2438 (smart battery monitor) (VDD, VAD, vis, humidity)
 - [x] Add as systemd service
 - [x] Device names can be defined via device.json
+
+
+## Notes:
+If you change the device.json, don't forgett to restart the service `systemctl restart 1wire-connector`
