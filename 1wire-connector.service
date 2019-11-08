@@ -4,8 +4,8 @@ After=syslog.target
 
 [Service]
 Type=simple
-User=www-data
-Group=www-data
+User=root
+Group=root
 WorkingDirectory=/var/www
 ExecStart=/var/www/read1w.py
 SyslogIdentifier=1wire_connector
