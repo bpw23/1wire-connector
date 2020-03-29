@@ -31,7 +31,7 @@ devices.json and read1w.py to `/var/www`
 - [x] Add as systemd service
 - [x] Device names can be defined via device.json
 - [x] Infofield in 1wire.json with last refresh and number of devices
-- [x] Added fileds to 2438 (smart battery monitor) pressure and temperature
+- [x] Added pressure and temperature to 2438 (smart battery monitor) 
 - [x] Added bus statistics to info field
 
 
