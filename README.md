@@ -14,7 +14,7 @@ Following owfs packages are used:
 ### OWFS:
 `
 apt-get install owfs python-ow ow-shell
-`
+`  
 and then configure the server in `/etc/owfs.conf` to your needs ! 
   
 ### Copy files:
@@ -26,8 +26,8 @@ devices.json and read1w.py to `/var/www`
 `http://your-ip:2121/`
 
 ### Start service
-`systemctl enable 1wire-connector  
-systemctl start 1wire-connector.service`
+`systemctl enable 1wire-connector`
+`systemctl start 1wire-connector.service`
   
 ## What works:
 - [x] Get data from DS18B20 (temperature10 and power)
