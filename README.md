@@ -22,8 +22,12 @@ devices.json and read1w.py to `/var/www`
   
 1wire-connector.service to `/etc/systemd/system/`
   
+### Check if owhttp works and shows your all 
+`http://yout-ip:2121/`
+
 ### Start service
-`systemctl start 1wire-connector.service`
+`systemctl enable 1wire-connector
+systemctl start 1wire-connector.service`
   
 ## What works:
 - [x] Get data from DS18B20 (temperature10 and power)
