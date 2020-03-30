@@ -26,7 +26,7 @@ devices.json and read1w.py to `/var/www`
 `http://your-ip:2121/`
 
 ### Start service
-`systemctl enable 1wire-connector`
+`systemctl enable 1wire-connector`  
 `systemctl start 1wire-connector.service`
   
 ## What works:
