@@ -15,7 +15,7 @@ Following owfs packages are used:
 `
 apt-get install owfs python-ow ow-shell
 `
-and then configure to your needs.
+and then configure the server in `/etc/owfs.conf` to your needs ! 
   
 ### Copy files:
 devices.json and read1w.py to `/var/www`
